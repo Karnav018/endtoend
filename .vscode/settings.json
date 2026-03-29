@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
-        "numpy"
+        "dotenv",
+        "mydb",
+        "numpy",
+        "pymysql",
+        "scikit"
     ]
 }
