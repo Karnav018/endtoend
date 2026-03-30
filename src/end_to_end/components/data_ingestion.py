@@ -23,7 +23,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             # reading code should be here
-            df = read_data_from_mysql()
+            df = pd.read_csv(os.path.join("notebook/data", "raw.csv"))
             logging.info("Reading from mysql database completed..............")
 
             os.makedirs(
